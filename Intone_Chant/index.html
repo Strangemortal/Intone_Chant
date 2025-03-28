@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intone-chant</title>
+    <body>
+        <div class="container">
+            <h1>Intone Chant</h1>
+            <button id="takeVoiceInputBtn" class="">🎙 Record Target Word </button>
+            <input type="text" id="wordInput" placeholder="Target word will appear here" readonly="">
+            <input type="number" id="maxCountInput" placeholder="Max Count" min="1">
+            <button id="startBtn" class="">▶ Start Listening </button>
+            <button id="stopBtn" disabled="">⏹ Stop Listening</button>
+            <button id="resetBtn">🔄 Reset Count</button>
+            <p>Detected Text: <span id="spokenText">None</span></p>
+            <p>Total Matches Counted: <span id="matchCount">0</span></p>
+        </div>
+    
+
+</body>
